@@ -1,0 +1,32 @@
+name: topology_demos_env
+channels:
+    - conda-forge
+    - pyviz
+# minimize what we download via conda forge for vast speedup
+dependencies:
+    - Cython
+    - colorcet
+    - holoviews
+    - numpy
+    - numpydoc
+    - pandas
+    - panel
+    - phantomjs
+    - pip
+    - pytest
+    - python=3.7
+    - scipy
+    - sphinx
+    - scikit-learn
+    - pip:
+        - bokeh
+        - git+https://github.com/geomdata/gda-public.git@devcopy
+        - ipython
+        - jupyter
+        - librosa
+        - matplotlib
+        - nbconvert
+        - pytest-html
+        - pytest-timeout
+        - seaborn
+        - xarray

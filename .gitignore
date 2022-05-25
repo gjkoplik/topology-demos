@@ -1,0 +1,5 @@
+.idea/
+figures/*/*
+!sandbox/README.md
+sandbox
+.ipynb_checkpoints
